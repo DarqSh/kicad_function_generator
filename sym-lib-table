@@ -1,0 +1,13 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "NE5532") (type "KiCad") (uri "${KIPRJMOD}/libs/ne5532_onsemi/NE5532AD8R2G.kicad_sym") (options "") (descr ""))
+	(lib (name "pot_47k") (type "KiCad") (uri "${KIPRJMOD}/libs/pot_47k/2002112255.kicad_sym") (options "") (descr ""))
+	(lib (name "mux_1-to-4") (type "KiCad") (uri "${KIPRJMOD}/libs/mux_1-to-4/TMUX4052DYYRQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "pot_20k") (type "KiCad") (uri "${KIPRJMOD}/libs/pot_20k/PTN091-V20115K1B.kicad_sym") (options "") (descr ""))
+	(lib (name "pot_100k_log") (type "KiCad") (uri "${KIPRJMOD}/libs/pot_100k_log/PTN091-V100115K1A.kicad_sym") (options "") (descr ""))
+	(lib (name "pot_1k_feedbacktune") (type "KiCad") (uri "${KIPRJMOD}/libs/pot_1k_feedbacktune/PTN091-V01115K1B.kicad_sym") (options "") (descr ""))
+	(lib (name "comparator_for_square") (type "KiCad") (uri "${KIPRJMOD}/libs/comparator_for_square/TLV1871DDFR.kicad_sym") (options "") (descr ""))
+	(lib (name "opamp_highspeed") (type "KiCad") (uri "${KIPRJMOD}/libs/opamp_highspeed/LM7171AIMX_NOPB.kicad_sym") (options "") (descr ""))
+	(lib (name "pot_20k_dualgang") (type "KiCad") (uri "${KIPRJMOD}/libs/pot_20k_dualgang/P140KH1-Y20AR20K.kicad_sym") (options "") (descr ""))
+	(lib (name "pot_100k_linear") (type "KiCad") (uri "${KIPRJMOD}/libs/pot_100k_linear/PTN091-V100115K1B.kicad_sym") (options "") (descr ""))
+)

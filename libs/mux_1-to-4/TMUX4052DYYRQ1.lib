@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TMUX4052DYYRQ1
+#/18896230/2108289/2.50/16/3/Integrated Circuit
+DEF TMUX4052DYYRQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "TMUX4052DYYRQ1" 850 200 50 H V L CNN
+F2 "SOP50P326X110-16N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1771772113479&ref_url=https%253A%252F%252Fwww.mouser.de%252F" 850 0 50 H I L CNN
+F4 "Multiplexer Switch ICs Automotive +/-12-V 4 :1 two-channel mul , 5V ~ 24V , 700 mhZ , -55C ~ 125C (TA)" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "595-TMUX4052DYYRQ1" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX4052DYYRQ1?qs=HoCaDK9Nz5dk3Dbbufv53w%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TMUX4052DYYRQ1" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S0B 1 0 0 200 R 50 50 0 0 P
+X S2B 2 0 -100 200 R 50 50 0 0 P
+X DB 3 0 -200 200 R 50 50 0 0 P
+X S3B 4 0 -300 200 R 50 50 0 0 P
+X S1B 5 0 -400 200 R 50 50 0 0 P
+X ~EN 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 P
+X GND 8 0 -700 200 R 50 50 0 0 P
+X VDD 16 1000 0 200 L 50 50 0 0 P
+X S2A 15 1000 -100 200 L 50 50 0 0 P
+X S1A 14 1000 -200 200 L 50 50 0 0 P
+X DA 13 1000 -300 200 L 50 50 0 0 P
+X S0A 12 1000 -400 200 L 50 50 0 0 P
+X S3A 11 1000 -500 200 L 50 50 0 0 P
+X A0 10 1000 -600 200 L 50 50 0 0 P
+X A1 9 1000 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

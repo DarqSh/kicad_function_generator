@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV1871DDFR
+D Wide supply range: 2.7V to 40V (+/-1.35V to +/-20V)  65ns propagation delay  Single or split supplies operation  "Floating" push-pull output with separate supplies  Rail-to-rail input  Power-on-reset (POR)  Low supply current: 75A per channel  Temperature range: -40C to +125C
+K
+F https://www.ti.com/product/TLV1871/part-details/TLV1871DDFR?utm_source=google&utm_medium=cpc&utm_campaign=asc-null-null-OPN_EN-cpc-storeic-google-soas_en_pur&utm_content=Device&ds_k=TLV1871DDFR&DCM=yes&gad_source=1&gad_campaignid=12657287437&gbraid=0AAAAA
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMUX4052DYYRQ1
+D Multiplexer Switch ICs Automotive +/-12-V 4 :1 two-channel mul , 5V ~ 24V , 700 mhZ , -55C ~ 125C (TA)
+K
+F https://www.ti.com/lit/ds/symlink/tmux4052-q1.pdf?ts=1771772113479&ref_url=https%253A%252F%252Fwww.mouser.de%252F
+$ENDCMP
+#
+#End Doc Library

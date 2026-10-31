@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P140KH1-Y20AR20K
+D Potentiometers 14 mm ROTARY PANEL POT
+K
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P140.pdf
+$ENDCMP
+#
+#End Doc Library

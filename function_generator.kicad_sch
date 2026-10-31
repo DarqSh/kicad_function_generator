@@ -1,0 +1,453 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed")
+	(paper "A4")
+	(title_block
+		(title "Function generator")
+		(date "2026-10-30")
+		(rev "${REVISION_NUMBER}")
+		(company "Illia Novosad")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 167.64 63.5) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c593641-a14d-4bdc-bd04-a251eb61e553")
+	)
+	(wire
+		(pts
+			(xy 118.11 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee8cb86-e1e6-4106-ace4-beba1f83b738")
+	)
+	(sheet
+		(at 119.38 108.204)
+		(size 49.53 49.276)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36e0ff48-0e43-4fc9-8ea9-07ab18ef2af0")
+		(property "Sheetname" "scaling&offset"
+			(at 119.38 107.4924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "scaling&offset.kicad_sch"
+			(at 119.38 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" input
+			(at 119.38 149.86 180)
+			(uuid "edf7342d-9e5c-4c4e-a49e-0f40d1dfcde9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-15V" input
+			(at 119.38 153.67 180)
+			(uuid "99a42c10-7d09-4058-95c8-3f29f22a743a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "raw_input" input
+			(at 119.38 134.62 180)
+			(uuid "84398ace-5cb2-4c5a-9082-11c13bc3fbc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ready_output" output
+			(at 168.91 134.62 0)
+			(uuid "f755c22d-78d4-4f17-87a3-048d95d7dcac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "function_generator"
+				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 36.83)
+		(size 49.53 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8c476b65-32fc-4425-a7f6-459e41f83ee4")
+		(property "Sheetname" "sine_generator"
+			(at 49.53 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sine_generator.kicad_sch"
+			(at 49.53 86.4366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V_mux" input
+			(at 99.06 45.72 0)
+			(uuid "ccf1cc47-68ac-4459-bfb2-8b4af78dced8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+15V" input
+			(at 49.53 76.2 180)
+			(uuid "0bb8e6fb-36ff-484d-9870-d2cc73019e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-12V_mux" input
+			(at 99.06 49.53 0)
+			(uuid "8dfd571a-4d19-428a-8799-58988e9e41ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 49.53 80.01 180)
+			(uuid "983fc367-e4e2-4abd-8636-73e1eeda50fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "mux_choose_0" input
+			(at 99.06 78.74 0)
+			(uuid "39a3c152-5394-4f61-a3cc-c9e8b1c4161e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "mux_choose_1" input
+			(at 99.06 81.28 0)
+			(uuid "db9f82a3-f53f-45d6-8bb8-34c9dcb29c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sine_out" output
+			(at 99.06 63.5 0)
+			(uuid "e42e82a0-0176-4ead-b99f-9e36581cff57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "function_generator"
+				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 36.83)
+		(size 49.53 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc0953cb-7fec-42c3-822c-3a05710b271e")
+		(property "Sheetname" "square_generator"
+			(at 118.11 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "square_generator.kicad_sch"
+			(at 118.11 86.4366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+15V" input
+			(at 118.11 76.2 180)
+			(uuid "540e9157-cb21-4d60-a55b-80ad5616d6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-15V" input
+			(at 118.11 80.01 180)
+			(uuid "3ada3ee2-cb83-4808-9401-7ef50fab5833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sine_in" input
+			(at 118.11 63.5 180)
+			(uuid "e5b38cb0-a248-444f-9a24-7f3376059240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "square_out" output
+			(at 167.64 63.5 0)
+			(uuid "034ef990-acac-4045-a853-d1807512e5ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "function_generator"
+				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 36.83)
+		(size 52.07 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7fb0797-476d-49a1-8ad9-24f38e3107dd")
+		(property "Sheetname" "triangle_generator"
+			(at 187.96 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "triangle_generator.kicad_sch"
+			(at 187.96 86.4366 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+12V_mux" input
+			(at 240.03 45.72 0)
+			(uuid "07c42dee-ad2b-41c8-9841-b8985451c897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+15V" output
+			(at 187.96 76.2 180)
+			(uuid "5e040af5-b532-4476-9534-edbcfea2335d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-12V_mux" input
+			(at 240.03 49.53 0)
+			(uuid "fb68e078-9a6d-4b57-a7fb-4f790b0a58f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" input
+			(at 187.96 80.01 180)
+			(uuid "8d26e1a3-fed9-436f-af90-c78d5aac5f03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "mux_choose_0" input
+			(at 240.03 78.74 0)
+			(uuid "80f43368-7871-4df7-ad0f-c0acf6fbd25e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "mux_choose_1" input
+			(at 240.03 81.28 0)
+			(uuid "3c4eba5a-0dfc-42f6-9e0e-857ca0dddf11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "triangle_out" output
+			(at 240.03 66.04 0)
+			(uuid "5813bee1-e88d-40ce-a613-ffaa4c36a50d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "square_in" output
+			(at 187.96 63.5 180)
+			(uuid "4f15e5b3-97f5-49be-9760-8cfcc478573e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "function_generator"
+				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

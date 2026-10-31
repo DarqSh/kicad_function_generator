@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM7171AIMX_NOPB
+D Very High Speed, High Output Current, Voltage Feedback Amplifier
+K
+F http://www.ti.com/lit/gpn/LM7171
+$ENDCMP
+#
+#End Doc Library

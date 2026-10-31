@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE5532AD8R2G
+D Small-Signal Bandwidth: 10 MHz; Output Drive Capability: 600 , 10 VRMS; Input Noise Voltage: 5.0 nV/(Hz)^0.5 (Typical); DC Voltage Gain: 50000; AC Voltage Gain: 2200 at 10 kHz; Power Bandwidth: 140 kHz; Slew Rate: 9.0 V/s; Large Supply Voltage Range: +/-3.0 to +/-20 V; Compensated for Unity Gain
+K
+F https://www.onsemi.com/pub/Collateral/NE5532-D.PDF
+$ENDCMP
+#
+#End Doc Library
