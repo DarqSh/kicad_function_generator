@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B32671L1222J289
+D Metallized Polypropylene Capacitors (MKP/MFP), 0.0022uF, 1600V DC, 5mm(W) x 11mm(H) x 13mm(L)
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32671l_672l.pdf
+$ENDCMP
+#
+#End Doc Library

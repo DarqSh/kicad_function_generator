@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XAL6060-682MEC
+D INDUCTOR, 6.8UH, 9A, 20%, 18MHZ, REEL
+K
+F https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal60xx/xal6060-682/
+$ENDCMP
+#
+#End Doc Library

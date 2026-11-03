@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FKP2L011501G00HF00
+D Film Capacitors 1500pF 2.5% 800V 5.5x7x7.2
+K
+F https://www.mouser.in/datasheet/2/440/e_WIMA_FKP_2-1139852.pdf
+$ENDCMP
+#
+#End Doc Library

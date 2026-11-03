@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 890443325010CS
+#/2198811/2216939/2.50/2/2/Capacitor
+DEF 890443325010CS C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "890443325010CS" 350 150 50 H V L CNN
+F2 "890443325010CS" 350 50 50 H I L CNN
+F3 "https://www.we-online.com/catalog/datasheet/890443325010CS.pdf" 350 -50 50 H I L CNN
+F4 "WCAP-FTBP DC Film Capacitors (MKP) MPPP015225J160DCPP45004; THT Boxed; 2.2 F +/- 5 %; 160V (DC); RIso  4.55 G; pitch 15; Climate category 40/105/56" 350 -150 50 H I L CNN "Description"
+F5 "16.5" 350 -250 50 H I L CNN "Height"
+F6 "710-890443325010CS" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/890443325010CS?qs=rrS6PyfT74cJ5wpkPUK2yA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "890443325010CS" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

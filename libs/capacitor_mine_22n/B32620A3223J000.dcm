@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B32620A3223J000
+D Metallized Polypropylene Capacitors (MKP/MFP), 0.022uF, 250V DC, 4mm(W) x 8.5mm(H) x 10mm(L)
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32620_621.pdf
+$ENDCMP
+#
+#End Doc Library

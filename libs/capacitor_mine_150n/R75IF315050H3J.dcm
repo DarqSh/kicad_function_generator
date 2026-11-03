@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R75IF315050H3J
+D R75H, Film, Metallized Polypropylene, Automotive Grade, 0.15 uF, 5%, 160 VAC, 250 VDC, 125C, -55C, 105C, 0.05 % , 100 GOhms, 570 V/us, 9000 pH, 1.3 g, 13mm, 12mm, 6mm, Lead Spacing = 10mm, 1200
+K
+F https://www.yageogroup.com/content/datasheet/asset/file/KEM_F3121_R75H
+$ENDCMP
+#
+#End Doc Library

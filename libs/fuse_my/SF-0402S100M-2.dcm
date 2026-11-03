@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SF-0402S100M-2
+D 1 A AC 24 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 0402 (1005 Metric)
+K
+F https://www.bourns.com/docs/product-datasheets/sf-0402s-m.pdf?sfvrsn=c5e676f6_19
+$ENDCMP
+#
+#End Doc Library
