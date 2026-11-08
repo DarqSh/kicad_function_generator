@@ -1,0 +1,4 @@
+novak : tajne1 : 1005 : users : /bin/bash
+kral:heslo:1001:staff:/usr//bin/zsh
+ zeman : abc123 : 1003 : users : /bin//sh
+benes:x1y2:998:staff:/bin/bash
