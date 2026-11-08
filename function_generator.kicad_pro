@@ -586,7 +586,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "function_generator.step",
       "vrml": "function_generator.wrl"
     },
     "page_layout_descr_file": ""
