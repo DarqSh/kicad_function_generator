@@ -304,7 +304,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OPA1656IDR:OPA1656IDR"
+		(symbol "OPA1656_mine:OPA1656IDR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2358,6 +2358,166 @@
 		)
 	)
 	(symbol
+		(lib_id "OPA1656_mine:OPA1656IDR")
+		(at 120.65 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3beab19-2224-4770-8a36-e703fb8ae5bc")
+		(property "Reference" "IC6"
+			(at 135.89 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA1656IDR"
+			(at 135.89 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "opa1656_mine:SOIC127P600X175-8N"
+			(at 147.32 141.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/OPA1656"
+			(at 147.32 241.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "SoundPlus ultra-low noise and distortion, audio operational amplifier"
+			(at 120.65 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 147.32 441.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-OPA1656IDR"
+			(at 147.32 541.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA1656IDR?qs=vLWxofP3U2ztlJVp%252BbIcnQ%3D%3D"
+			(at 147.32 641.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 147.32 741.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OPA1656IDR"
+			(at 147.32 841.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "7"
+			(uuid "0d5b7774-5e5a-4c7c-8d27-d1a303c6a302")
+		)
+		(pin "2"
+			(uuid "957a7671-7791-4719-9d11-b42252d89a22")
+		)
+		(pin "3"
+			(uuid "1c5a5df2-0511-439d-a3bc-353b959b4d63")
+		)
+		(pin "1"
+			(uuid "6578db01-fe8f-48d1-b806-0567d3bb11f3")
+		)
+		(pin "5"
+			(uuid "0f23caf0-2b12-484c-9595-c00fdcf2bfdc")
+		)
+		(pin "6"
+			(uuid "afc6fb46-3f0f-4521-a26d-50589b475376")
+		)
+		(pin "4"
+			(uuid "daaf55e5-9832-4d1c-9116-4ae93a531256")
+		)
+		(pin "8"
+			(uuid "d270cd94-83e0-4193-a481-995fe9fb8e71")
+		)
+		(instances
+			(project "function_generator"
+				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed/36e0ff48-0e43-4fc9-8ea9-07ab18ef2af0"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 119.38 62.23 0)
 		(unit 1)
@@ -2597,166 +2757,6 @@
 			(project "function_generator"
 				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed/36e0ff48-0e43-4fc9-8ea9-07ab18ef2af0"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OPA1656IDR:OPA1656IDR")
-		(at 120.65 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edffdbde-faa9-469f-9999-89f2a46fbbde")
-		(property "Reference" "IC6"
-			(at 135.89 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1656IDR"
-			(at 135.89 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "opa1656_mine:SOIC127P600X175-8N"
-			(at 147.32 141.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/OPA1656"
-			(at 147.32 241.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "SoundPlus ultra-low noise and distortion, audio operational amplifier"
-			(at 120.65 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.75"
-			(at 147.32 441.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-OPA1656IDR"
-			(at 147.32 541.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA1656IDR?qs=vLWxofP3U2ztlJVp%252BbIcnQ%3D%3D"
-			(at 147.32 641.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 147.32 741.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "OPA1656IDR"
-			(at 147.32 841.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "6f251e0c-27fe-4e2c-ba04-8aaf576618f4")
-		)
-		(pin "2"
-			(uuid "1321ea01-0981-4eae-b4b7-f7dbff1fc4ec")
-		)
-		(pin "3"
-			(uuid "674ad240-13f6-4aeb-a302-68d873268d9c")
-		)
-		(pin "4"
-			(uuid "f5e32f49-f588-4f10-b86a-24c7a8781d41")
-		)
-		(pin "5"
-			(uuid "69f667c6-8d1e-4a4a-b42c-cdf6e6b3f695")
-		)
-		(pin "6"
-			(uuid "f00207f0-db24-40a3-921e-17bf8a153e13")
-		)
-		(pin "7"
-			(uuid "021a93fb-957e-422d-ae40-0502667ae7e9")
-		)
-		(pin "8"
-			(uuid "b39d581e-5930-4923-ad9b-9977a36eb8db")
-		)
-		(instances
-			(project "function_generator"
-				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed/36e0ff48-0e43-4fc9-8ea9-07ab18ef2af0"
-					(reference "IC6")
 					(unit 1)
 				)
 			)

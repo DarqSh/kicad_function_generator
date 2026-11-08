@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_issues|110751100|71180000|1100d973-f150-4e6d-9c59-a872cb7cf160|00000000-0000-0000-0000-000000000000",
-          "probably glitch; replaced manually"
-        ],
-        [
-          "lib_footprint_issues|123211100|64290000|b39e5fe9-b00d-4793-a908-1cd2b143b9d9|00000000-0000-0000-0000-000000000000",
-          "probably glitch; replaced manually"
-        ],
-        [
-          "lib_footprint_issues|84300000|107810000|64a32dcd-048b-4b66-baef-39b04934370d|00000000-0000-0000-0000-000000000000",
-          "probably glitch; replaced manually"
-        ],
-        [
-          "lib_footprint_issues|98296100|73820000|01064cfa-ac7a-49fa-99b5-22888f1e6308|00000000-0000-0000-0000-000000000000",
-          "probably glitch; replaced manually"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -195,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -206,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -217,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -518,6 +504,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -580,8 +567,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -599,6 +586,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": "function_generator.wrl"
     },
     "page_layout_descr_file": ""
@@ -783,7 +771,7 @@
         "uuid": "8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed"
       }
     ],
-    "used_designators": "#FLG1-6,L1-2,F1,U1,J1-3,#PWR1-64,D1-10,C1-49,VR1-6,R1-35,IC1-13",
+    "used_designators": "#FLG1-6,#PWR1-64,C1-49,D1-10,F1,IC1-13,J1-3,L1-2,R1-35,U1,VR1-6",
     "variants": []
   },
   "sheets": [

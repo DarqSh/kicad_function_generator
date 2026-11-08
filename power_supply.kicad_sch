@@ -1503,7 +1503,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fuse_my:SF-0402S100M-2"
+		(symbol "fuse_my:0466001.NR"
 			(pin_names
 				(hide yes)
 			)
@@ -1523,7 +1523,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SF-0402S100M-2"
+			(property "Value" "0466001.NR"
 				(at 13.97 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1534,7 +1534,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "FUSC1005X61N"
+			(property "Footprint" "FUSC3215X66N"
 				(at 13.97 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1546,7 +1546,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-0402s-m.pdf?sfvrsn=c5e676f6_19"
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_fuse_466_datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
 				(at 13.97 -196.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1558,7 +1558,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "1 A AC 24 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 0402 (1005 Metric)"
+			(property "Description" "Surface Mount Fuses 63V FA 1206 1A VFA Slimline"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1569,7 +1569,7 @@
 					)
 				)
 			)
-			(property "Height" "0.61"
+			(property "Height" "0.66"
 				(at 13.97 -396.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1581,7 +1581,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "652-SF-0402S100M-2"
+			(property "Mouser Part Number" "576-0466001.NR"
 				(at 13.97 -496.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1593,7 +1593,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-0402S100M-2?qs=rrS6PyfT74cJeBCQrmmXXA%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0466001NR?qs=ar9f0rk5DXDy6tpNfF8WnQ%3D%3D"
 				(at 13.97 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1605,7 +1605,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Bourns"
+			(property "Manufacturer_Name" "LITTELFUSE"
 				(at 13.97 -696.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1617,7 +1617,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SF-0402S100M-2"
+			(property "Manufacturer_Part_Number" "0466001.NR"
 				(at 13.97 -796.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1629,7 +1629,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "SF-0402S100M-2_1_1"
+			(symbol "0466001.NR_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -5418,6 +5418,148 @@
 		)
 	)
 	(symbol
+		(lib_id "fuse_my:0466001.NR")
+		(at 27.94 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1347e48e-9561-40be-8160-baf194de9888")
+		(property "Reference" "F1"
+			(at 36.83 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0466001.NR"
+			(at 36.83 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "fuse_my:FUSC3215X66N"
+			(at 41.91 145.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse_fuse_466_datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+			(at 41.91 245.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Surface Mount Fuses 63V FA 1206 1A VFA Slimline"
+			(at 27.94 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.66"
+			(at 41.91 445.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "576-0466001.NR"
+			(at 41.91 545.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0466001NR?qs=ar9f0rk5DXDy6tpNfF8WnQ%3D%3D"
+			(at 41.91 645.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 41.91 745.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0466001.NR"
+			(at 41.91 845.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "1ee5ef2e-d6d5-4b05-82f8-92f93e4c159f")
+		)
+		(pin "2"
+			(uuid "13279364-05e1-4811-b4f3-9a3baf198b0d")
+		)
+		(instances
+			(project "function_generator"
+				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed/69957a90-1ba1-4781-a57e-ddc6f2c383ab"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 191.77 107.95 0)
 		(unit 1)
@@ -6772,148 +6914,6 @@
 			(project "function_generator"
 				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed/69957a90-1ba1-4781-a57e-ddc6f2c383ab"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "fuse_my:SF-0402S100M-2")
-		(at 27.94 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4498289f-3964-43d4-82c3-84d1e278890f")
-		(property "Reference" "F1"
-			(at 36.83 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SF-0402S100M-2"
-			(at 36.83 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 41.91 145.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-0402s-m.pdf?sfvrsn=c5e676f6_19"
-			(at 41.91 245.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "1 A AC 24 V DC Fuse Board Mount (Cartridge Style Excluded) Surface Mount 0402 (1005 Metric)"
-			(at 27.94 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.61"
-			(at 41.91 445.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "652-SF-0402S100M-2"
-			(at 41.91 545.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-0402S100M-2?qs=rrS6PyfT74cJeBCQrmmXXA%3D%3D"
-			(at 41.91 645.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 41.91 745.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SF-0402S100M-2"
-			(at 41.91 845.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "b7efb407-f6a3-4921-888a-438176fa95d2")
-		)
-		(pin "2"
-			(uuid "20b49d08-9047-45a4-b5e9-3a6c323d911a")
-		)
-		(instances
-			(project "function_generator"
-				(path "/8d8ceab7-a4ba-4e4d-9a48-b98191fe0bed/69957a90-1ba1-4781-a57e-ddc6f2c383ab"
-					(reference "F1")
 					(unit 1)
 				)
 			)
