@@ -1,0 +1,78 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7d3c2011-b88f-4afe-8bef-9dd581e0508a")
+	(paper "A4")
+	(title_block
+		(date "2026-10-30")
+		(rev "${REVISION_NUMBER}")
+	)
+	(lib_symbols)
+	(hierarchical_label "triangle_input"
+		(shape input)
+		(at 88.9 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12e81c05-2aed-4242-a59a-ebd9d9d7d498")
+	)
+	(hierarchical_label "square_input"
+		(shape input)
+		(at 88.9 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19dc33f0-8f47-41c4-bc4b-13f8cb9c7d21")
+	)
+	(hierarchical_label "selected_output"
+		(shape output)
+		(at 168.91 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e3a79eb-aad7-4a71-8119-348b60f5877d")
+	)
+	(hierarchical_label "-15V"
+		(shape input)
+		(at 102.87 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68365342-d27f-46cb-8487-188b6d1a9063")
+	)
+	(hierarchical_label "+15V"
+		(shape input)
+		(at 97.79 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e775a915-8aa4-4005-9905-f0c3d82ff851")
+	)
+	(hierarchical_label "sine_input"
+		(shape input)
+		(at 88.9 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb1d1894-d673-4be4-92cd-1709b6a02b20")
+	)
+)

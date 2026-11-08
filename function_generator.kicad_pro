@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_issues|110751100|71180000|1100d973-f150-4e6d-9c59-a872cb7cf160|00000000-0000-0000-0000-000000000000",
+          "probably glitch; replaced manually"
+        ],
+        [
+          "lib_footprint_issues|123211100|64290000|b39e5fe9-b00d-4793-a908-1cd2b143b9d9|00000000-0000-0000-0000-000000000000",
+          "probably glitch; replaced manually"
+        ],
+        [
+          "lib_footprint_issues|84300000|107810000|64a32dcd-048b-4b66-baef-39b04934370d|00000000-0000-0000-0000-000000000000",
+          "probably glitch; replaced manually"
+        ],
+        [
+          "lib_footprint_issues|98296100|73820000|01064cfa-ac7a-49fa-99b5-22888f1e6308|00000000-0000-0000-0000-000000000000",
+          "probably glitch; replaced manually"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -162,7 +179,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.7,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -257,6 +274,10 @@
         {
           "diameter": 1.0,
           "drill": 0.5
+        },
+        {
+          "diameter": 3.0,
+          "drill": 2.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -578,7 +599,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "vrml": ""
+      "vrml": "function_generator.wrl"
     },
     "page_layout_descr_file": ""
   },
