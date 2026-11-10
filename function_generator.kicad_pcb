@@ -1171,7 +1171,7 @@
 		(descr "5-Lead Thin Small Outline Transistor Package [TSOT]_5")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC11"
-			(at 6.300905 -2.75 90)
+			(at -1.005 4.15 180)
 			(layer "F.SilkS")
 			(uuid "a8f65216-d2e6-4e08-ad3e-5ec00172f435")
 			(effects
@@ -3250,7 +3250,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at -0.75 -1.85325 0)
+			(at -0.75 1.64 0)
 			(layer "F.SilkS")
 			(uuid "9b516c33-b873-45e3-9b82-bdb3c043d01a")
 			(effects
@@ -5062,7 +5062,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 3.856191 -1.25 0)
+			(at -3.6 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "e8f90fee-71c8-4d2d-a304-bd9dc99ed250")
 			(effects
@@ -6143,7 +6143,7 @@
 		(descr "UJ-5 (TSOT)_1")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC12"
-			(at -0.97 4.175 180)
+			(at -0.77 4.175 180)
 			(layer "F.SilkS")
 			(uuid "2edb36d7-ab1b-430e-a074-18724dcd4e8a")
 			(effects
@@ -13466,7 +13466,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
-			(at 2.41 0.66 180)
+			(at 0.81 2.36 180)
 			(layer "F.SilkS")
 			(uuid "a8d0503e-2b1f-4e94-8ff0-603454348b5c")
 			(effects
@@ -15250,7 +15250,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
-			(at 3.56 -3.01 0)
+			(at 3.16 -1.61 0)
 			(layer "F.SilkS")
 			(uuid "408beff1-26da-44a4-89aa-fa3ba587da73")
 			(effects
@@ -16281,7 +16281,7 @@
 		(descr "SOIC-8 NB CASE 751-07")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at -5.5719 -2.295 0)
+			(at -5.5719 1.305 0)
 			(layer "F.SilkS")
 			(uuid "7228cbc2-c238-4120-85d2-2591f3345079")
 			(effects
@@ -18158,7 +18158,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C32"
-			(at 4.082381 0 0)
+			(at -0.075 3.12 0)
 			(layer "F.SilkS")
 			(uuid "ca365fc6-6e9a-45dc-8262-2dac453514e7")
 			(effects
@@ -19978,7 +19978,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C29"
-			(at -2.275 0.8625 180)
+			(at -2.575 0.0625 180)
 			(layer "F.SilkS")
 			(uuid "1c7cefa2-c285-4c34-a708-4d46cea1a440")
 			(effects
@@ -23610,7 +23610,7 @@
 		(descr "DDF0008A_2022")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC5"
-			(at -3.9325 0.885 0)
+			(at -3.6325 -0.015 0)
 			(layer "F.SilkS")
 			(uuid "809f9910-7360-45d3-bc5f-03071083012b")
 			(effects
@@ -25237,7 +25237,7 @@
 		(descr "D000")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC6"
-			(at -1.25 6.71372 90)
+			(at -0.7325 4.75 180)
 			(layer "F.SilkS")
 			(uuid "97fdee85-9f1e-43b6-9a3d-5fae66211c52")
 			(effects
@@ -46312,7 +46312,7 @@
 		(start 136.803812 128.955866)
 		(end 139.010788 128.955866)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46322,7 +46322,7 @@
 		(start 137.190038 129.231748)
 		(end 138.624569 129.231748)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46332,7 +46332,7 @@
 		(start 137.576258 127.797209)
 		(end 138.238353 127.797209)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46342,7 +46342,7 @@
 		(start 137.590046 129.507619)
 		(end 138.224553 129.507619)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46352,7 +46352,7 @@
 		(start 137.631437 126.997168)
 		(end 137.907301 126.748894)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46362,7 +46362,7 @@
 		(start 137.907301 126.748894)
 		(end 137.907301 127.797209)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46372,7 +46372,7 @@
 		(start 137.907301 128.486888)
 		(end 137.907301 128.955866)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46383,7 +46383,7 @@
 			(xy 141.217778 129.231748) (xy 141.447573 128.495997) (xy 141.677667 128.495997) (xy 141.907469 129.231748)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46394,7 +46394,7 @@
 			(xy 141.907469 129.231748) (xy 142.137267 129.967494) (xy 142.367346 129.967494) (xy 142.597148 129.231748)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46405,7 +46405,7 @@
 			(xy 142.266107 126.942004) (xy 142.293693 126.638542) (xy 142.928194 126.638542) (xy 142.928194 127.010968)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46415,7 +46415,7 @@
 		(start 142.266107 127.797209)
 		(end 142.928194 127.797209)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46426,7 +46426,7 @@
 			(xy 142.597148 129.231748) (xy 142.826951 128.495997) (xy 143.05703 128.495997) (xy 143.28683 129.231748)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46437,7 +46437,7 @@
 			(xy 142.928194 127.010968) (xy 142.928194 127.245465) (xy 142.748878 127.410985) (xy 142.266107 127.797209)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46448,7 +46448,7 @@
 			(xy 143.28683 129.231748) (xy 143.516628 129.967494) (xy 143.74671 129.967494) (xy 143.976507 129.231748)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46458,7 +46458,7 @@
 		(start 145.907617 129.78349)
 		(end 146.459364 129.78349)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46468,7 +46468,7 @@
 		(start 146.459364 128.68)
 		(end 147.286976 128.68)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46478,7 +46478,7 @@
 		(start 146.459364 129.78349)
 		(end 146.459364 128.68)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46489,7 +46489,7 @@
 			(xy 146.955925 126.845446) (xy 147.231806 126.638542) (xy 147.618024 126.721303) (xy 147.618024 126.997168)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46500,7 +46500,7 @@
 			(xy 147.176633 127.245465) (xy 147.424913 127.245465) (xy 147.618024 127.286839) (xy 147.618024 127.521329)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46510,7 +46510,7 @@
 		(start 147.286976 128.68)
 		(end 147.286976 129.78349)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46520,7 +46520,7 @@
 		(start 147.286976 129.78349)
 		(end 148.114589 129.78349)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46531,7 +46531,7 @@
 			(xy 147.618024 126.997168) (xy 147.618024 127.217875) (xy 147.424913 127.245465) (xy 147.176633 127.245465)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46542,7 +46542,7 @@
 			(xy 147.618024 127.521329) (xy 147.618024 127.866174) (xy 147.204221 127.893765) (xy 146.955925 127.67307)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46552,7 +46552,7 @@
 		(start 148.114589 128.68)
 		(end 148.666351 128.68)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46562,7 +46562,7 @@
 		(start 148.114589 129.78349)
 		(end 148.114589 128.68)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46572,7 +46572,7 @@
 		(start 150.597466 129.78349)
 		(end 151.287144 128.68)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46582,7 +46582,7 @@
 		(start 151.287144 128.68)
 		(end 151.976825 129.78349)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46592,7 +46592,7 @@
 		(start 151.5906 127.479958)
 		(end 152.349253 127.479958)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46602,7 +46602,7 @@
 		(start 151.976825 129.78349)
 		(end 152.666505 128.68)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46612,7 +46612,7 @@
 		(start 152.19753 126.748894)
 		(end 151.5906 127.479958)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46622,7 +46622,7 @@
 		(start 152.19753 127.797209)
 		(end 152.19753 126.721303)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -46632,7 +46632,7 @@
 		(start 152.666505 128.68)
 		(end 153.356188 129.78349)
 		(stroke
-			(width 0.12)
+			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
